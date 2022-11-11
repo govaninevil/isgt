@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            position: fixed;
+            top: 0;
+            z-index: 99;
+            width: 100%;
+            padding: 10px 35px;
+        }
+
+        header .blue-icon {
+            display: none;
+        }
+
+        header img {
+            width: 250px;
+        }
+
+        header .left-logo-box {
+            width: 20%;
+            display: inline-block;
+            vertical-align: mdfdsfffiddle;
+        }
+
+        header .center-nav-box {
+            width: 61%;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        header .social-icon-box {
+            width: 18%;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: -5px;
+            text-align: right;
+        }
+
+        header .social-icon-box ul {
+            margin-right: -10px;
+        }
+
+        header li {
+            display: inline-block;
+        }
+
+        header .center-nav-box li a {
+            color: #fff;
+            padding: 0 30px !important;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 400;
+            white-space: nowrap;
+        }
+
+        header .center-nav-box .social-icon-list {
+            display: none;
+        }
+
+        header .center-nav-box li:first-child a {
+            padding-left: 0 !important;
+        }
+
+        header .center-nav-box li:last-child a {
+            padding-right: 0;
+        }
+
+        header .center-nav-box li a:hover {
+            color: #FFA500;
+        }
+
+        header .center-nav-box li a.active {
+            color: #FFA500;
+        }
+
+        header .menu-box {
+            display: none;
+        }
+
+        header .menu-box .menu-btn {
+            display: block;
+        }
+
+        header .menu-box .menu-btn span {
+            display: block;
+            height: 3px;
+            width: 35px;
+            background-color: #fff;
+            margin-bottom: 5px;
+            text-align: right;
+            transition: 0.6s;
+        }
+
+        header .menu-box .menu-btn span:last-of-type {
+            margin-bottom: 0;
+        }
+
+        header.shrink .blue-icon {
+            display: inline-block;
+        }
+
+        header.shrink .white-icon {
+            display: none;
+        }
+
+        header.shrink .menu-box .menu-btn span {
+            background-color: #394951;
+        }
+
+        header.shrink {
+            background-color: #fff;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+            padding: 0 25px;
+        }
+
+        header.shrink .center-nav-box li a {
+            color: #394951;
+        }
+
+        header.shrink .center-nav-box li a.active {
+            color: #FFA500;
+        }
+
+        header.shrink .center-nav-box li a:hover {
+            color: #FFA500
+        }
+
+        header.shrink .social-icon {
+            background-color: #394951;
+        }
+
+        header.shrink .social-icon:hover {
+            background-color: #FFA500;
+        }
+
+        header.shrink .social-icon i {
+            color: #fff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="left-logo-box">
+                <a href="index.html" title="Infosenseglobal">
+                    <img src="images/Logo-White.png" alt="Infosenseglobal-logo" class="white-icon">
+                    <img src="images/infosenseglobal-color-logo.svg" class="blue-icon">
+                </a>
+            </div>
+            <div class="center-nav-box">
+                <nav>
+                    <div class="navbar">
+                        <div class="bx bx-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="nav-links">
+                            <div class="sidebar-logo">
+                                <i class="bx bx-x"></i>
+                            </div>
+                            <ul class="links">
+                                <li>
+                                    <a href="javascript:void(0);" title="Industries">Services</a>
+                                    <i class="bx bxs-chevron-down navmenu-arrow arrow"></i>
+                                    <ul class="navmenu-sub-menu sub-menu">
+                                        <li><a href="javascript:void(0);" title="Oracle Cloud Services">Oracle Cloud
+                                                Services</a></li>
+                                        <li><a href="javascript:void(0);" title="Oracle EBS Services">Oracle EBS
+                                                Services</a></li>
+                                        <li><a href="javascript:void(0);" title="Managed Services">Managed Services</a>
+                                        </li>
+                                        <li><a href="javascript:void(0);" title="Business Intelligence">Business
+                                                Intelligence</a></li>
+                                        <li><a href="javascript:void(0);" title="Managed Services">Managed Services</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="Industries">Solutions</a>
+                                    <i class="bx bxs-chevron-down secound-arrow arrow"></i>
+                                    <ul class="secound-sub-menu sub-menu">
+                                        <li><a href="customer360.html" title="Customer 360">Customer 360</a></li>
+                                        <li><a href="javascript:void(0);" title="OARS">OARS</a></li>
+                                        <li><a href="javascript:void(0);"
+                                                title="Traffic Management & Traveler Information Systems">Traffic
+                                                Management & Traveler Information Systems</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:void(0);">Industries</a></li>
+                                <li>
+                                    <a href="about-us.html" title="Company">Company</a>
+                                    <i class="bx bxs-chevron-down third-arrow arrow"></i>
+                                    <ul class="third-sub-menu sub-menu">
+                                        <li><a href="javascript:void(0);">Dynamic Clock</a></li>
+                                        <li><a href="javascript:void(0);">Form Validation</a></li>
+                                        <li><a href="javascript:void(0);">Card Slider</a></li>
+                                        <li><a href="javascript:void(0);">Complete Website</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="careers.html" title="Careers">Careers</a></li>
+                                <li><a href="resources.html" title="Resources">Resources</a></li>
+                                <li><a href="contact-us.html" title="Contact Us">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="social-icon-box">
+                <ul class="social-icon-list">
+                    <li><a href="javascript:void(0);" title="Facebook" class="social-icon"><i class="fa fa-facebook" 
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="javascript:void(0);" title="LinkedIn" class="social-icon"><i class="fa fa-linkedin"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="javascript:void(0);" title="Twitter" class="social-icon"><i class="fa fa-twitter"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="javascript:void(0);" title="You Tube" class="social-icon"><i class="fa fa-youtube-play"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // sidebar open close js code
+        let navLinks = document.querySelector(".nav-links");
+        let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+        let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+        menuOpenBtn.onclick = function () {
+            navLinks.style.left = "0";
+        }
+        menuCloseBtn.onclick = function () {
+            navLinks.style.left = "-100%";
+        }
+
+        // sidebar submenu open close js code
+        let navmenuArrow = document.querySelector(".navmenu-arrow");
+        navmenuArrow.onclick = function () {
+            navLinks.classList.toggle("show1");
+        }
+        let moreArrow = document.querySelector(".secound-arrow");
+        moreArrow.onclick = function () {
+            navLinks.classList.toggle("show2");
+        }
+        let jsArrow = document.querySelector(".third-arrow");
+        jsArrow.onclick = function () {
+            navLinks.classList.toggle("show3");
+        }
+        // .sidebar-logo .bx.bx-x
+        $(document).ready(function () {
+            $(document).on('click', '.navbar .links li .navmenu-arrow', function (event) {
+                $('.nav-links').removeClass('show2');
+                $('.nav-links').removeClass('show3');
+            });
+            $(document).on('click', '.navbar .links li .secound-arrow', function (event) {
+                $('.nav-links').removeClass('show1');
+                $('.nav-links').removeClass('show3');
+            });
+            $(document).on('click', '.navbar .links li .third-arrow', function (event) {
+                $('.nav-links').removeClass('show1');
+                $('.nav-links').removeClass('show2');
+            });
+
+            $(document).on('click', '.sidebar-logo .bx.bx-x', function (event) {
+                $('.nav-links').removeClass('show1');
+                $('.nav-links').removeClass('show2');
+                $('.nav-links').removeClass('show3');
+            });
+        });
+    </script>
+</body>
+
+</html>

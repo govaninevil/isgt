@@ -1,0 +1,606 @@
+
+@media screen and (max-width: 1599px) {
+    /* NEVBAR */
+    .nevbar{
+        width: 96%;
+    }
+    li.nav-item {
+        margin: 0 15px;
+    }
+
+    /* ourservice */
+    .resp-vtabs ul.resp-tabs-list{
+        width: 27%;
+    }
+    .resp-vtabs ul.resp-tabs-list h5{
+        font-size: 16px;
+    }
+
+
+    /* WHO WE ARE */
+    .detail p {
+        font-size: 22px;
+    }
+
+
+    /* Featured job */
+    .apply-now{
+        display: block;
+    }
+    .apply-now .btn-box{
+        margin-top: 24px;
+    }
+
+
+    /* Stay in konw */
+    .from .btn-box button{
+        padding: 11px 26px 12px 27px;
+    }
+}
+@media screen and (max-width: 1439px) {
+    /* nevbar */
+    .nevbar{
+        left: 16px;
+    }
+    .nevbar .col-3{
+        width: 15%;
+    }
+
+    /* vertical-bar */
+    .vertical-bar{
+        padding-left: 10px;
+    }
+    .resp-tabs-container.hor_1{
+        width: 1034px;
+    }
+    .resp-vtabs ul.resp-tabs-list h5{
+        font-size: 15px;
+    }
+
+    /* who we are  */
+    .detail p{
+        font-size: 20px;
+    }
+
+    /* case-study */
+    .case-study-dis{
+        padding: 25px;
+    }
+    .case-study-dis-white{
+        padding: 25px;
+    }
+    .case-study-dis-white p{
+        font-size: 14px;
+    }
+    .case h4{
+        margin-top: 16px;
+        font-size: 20px;
+    }
+    .case-study-dis p{
+        font-size: 14px;
+    }
+
+
+    /* stay in know */
+    .from .btn-box button{
+        padding: 11px 17px 12px 18px;
+    }
+}
+@media screen and (max-width: 1365px) {
+     /* nevbar */
+     li.nav-item{
+         margin: 0px 11px;
+     }
+     .right ul{
+         padding-left: 0px;
+     }
+
+    /* services */
+    .resp-tabs-container.hor_1 {
+        width: 903px;
+    }
+    .case-study-dis p{
+        font-size: 12px;
+    }
+
+    /* stay in know */
+    .know{
+        padding: 88px 62px;
+    }
+}
+@media screen and (max-width: 1279px) {
+    /* nevbar */
+    .logo img{
+        width: 200px;
+    }
+    li.nav-item{
+        margin: 0px 8px;
+    }
+    .right ul li{
+        width: 30px;
+        height: 30px;
+        padding: 3px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+    .nev .navbar-collapse{
+        flex-flow: column;
+    }
+    .right ul li a{
+        font-size: 13px;
+    }
+
+    /* slider */
+    .slider-text h1{
+        font-size: 40px;
+    }
+    .slider-text a{
+        font-size: 14px;
+    }
+
+    /* our service */
+    .resp-tabs-container.hor_1{
+        width: 800px;
+    }
+    .detail-box div p{
+        font-size: 13px;
+    }
+
+
+    /* who we are */
+    .detail p{
+        font-size: 16px;
+    }
+    .detail li h1{
+        font-size: 41px;
+    }
+
+    /* market */
+    .market-title h1{
+        font-size: 35px;
+    }
+
+    /* oue value */
+    .left-side h2{
+        font-size: 35px;
+    }
+    .right-side{
+        padding-left: 101px;
+    }
+    .right-side p{
+        font-size: 14px;
+    }
+
+    /* latest insights */
+    .case-study-dis-white span, .case-study-dis span{
+        font-size: 17px;
+    }
+    .case h4{
+        margin-top: 7px;
+    }
+
+    /* featured job */
+    .inner-box span img{
+        margin-right: 3px;
+    }
+    .inner-box span{
+        font-size: 12px;
+    }
+    .inner-box{
+        padding: 19px;
+    }
+    .inner-box h1 {
+        font-size: 15px;
+    }
+    .apply-now{
+        margin-top: -21px;
+    }
+    .apply-now .btn-box{
+        margin-bottom: 12px;
+    }
+    .apply-now .btn-box a{
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+    .explore-button .btn-box a{
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+
+    /* stay in know */
+    .know{
+        padding: 67px 41px;
+    }
+    .know h1{
+        font-size: 40px;
+    }
+    .know .from .form-control{
+        font-size: 15px;
+    }
+    .stay-in-know{
+        top: -145px;
+    }
+    .from .col-5{
+        width: 40%;
+    }
+    .from .btn-box button {
+        padding: 12px 22px 12px 22px;
+        font-size: 12px;
+    }
+    
+    /* footer */
+    .Upper-box{
+        padding-top: 188px;
+        padding-bottom: 0px;
+    }
+    .lower-box ul{
+        padding-top: 40px;
+    }
+    .lower-box ul h4{
+        font-size: 18px;
+    }
+    .footer-box a{
+        font-size: 11px;
+    }
+    .lower-box ul li{
+        margin-bottom: 4px;
+    }
+    .Upper-box ul li h4{
+        font-size: 18px;
+    }
+    .Upper-box ul li p{
+        font-size: 11px;
+    }
+    .touch{
+        padding-top: 36px;
+    }
+    .touch h4{
+        font-size: 18px;
+    }
+    .touch p{
+        font-size: 14px;
+    }
+    .bottom-part p:nth-child(1) {
+        font-size: 13px;
+    }
+    .bottom-part p {
+        font-size: 13px;
+    }
+    .bottom-part{
+        padding-bottom: 0px;
+    }
+
+
+}
+@media screen and (max-width: 1023px) {
+    /* navber */
+    .nevbar .right
+    {
+        display: none;
+    }
+    .nevbar .col-6{
+        width: 85%;
+    }
+    /* slider */
+    .slider .carousel-item{
+        height: calc(86vh - 0px);
+    }
+    
+    /* vartical bar */
+    .vertical-bar li.resp-tab-item.hor_1{
+        margin-left: 0px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 135%;
+    }
+    .vertical-bar ul li button img {
+        margin-left: 20px;
+    }
+    .resp-tabs-container.hor_1{
+        width: 100%;
+    }
+
+    /* who we are */
+    .detail{
+        padding: 40px;
+    }
+    .detail ul li {
+        width: 49%;
+    }
+
+    /* market */
+    .market-title h1{
+        width: 100%;
+    }
+    .left-block{
+        width: 100%;
+    }
+    .left-block ul{
+        padding-left: 125px;
+    }
+    .right-block{
+        width: 100%;
+    }
+
+    /* lastest */
+    .case .col-sm-3{
+        width: 50%;
+    }
+    .case .col-sm-6{
+        width: 100%
+    }
+
+    /* featured job */
+    .featured-title{
+        margin-top: 34px;
+        margin-bottom: 26px;
+    }
+    .featured-inner-box{
+        margin-bottom: 200px;
+    }
+    .from .col-2{
+        width: 20%;
+    }
+    footer{
+        padding: 0 40px;
+    }
+    .lower-box ul li{
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    .lower-box .right ul{
+        padding-top: 10px;
+    } 
+}
+@media screen and (max-width: 991px) {
+    /* nevbar */
+    .navbar-toggler{
+        position: absolute;
+        top: -38px;
+        right: 3%;
+    }
+    .nevbar{
+        left: 12px;
+        width: 97.4%;
+    }
+    .navbar-nav {
+        padding-top: 40px;
+    }
+    .nevbar .col-3{
+        padding: 0px;
+        width: 0%;
+    }
+    .nevbar .col-6{
+        width: 100%;
+        background-color: #fff;
+    }
+    .logo-blue{
+        display: block;
+        padding-top: 10px;
+    }
+    .logo{
+        display: none;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus{
+        color: #fff;
+    }
+    #navbarNav ul li a{
+        color: black;
+    }
+
+
+    /* latest inside */
+    .case .col-sm-3{
+        width: 50%;   
+    }
+    .case .col-sm-6{
+        width: 100%;
+    }
+
+
+    /* supporting */
+    .row.no-gutters{
+        width: 101.5%;
+    }
+}
+@media screen and (max-width: 767px) {
+    /* nevbar */
+    .nevbar .col-6{
+        flex-direction: row-reverse;
+    }
+    .nevbar button.navbar-toggler{
+        position: absolute ;
+        top: -38px ;
+        right: 3% ;
+    }        
+
+
+    /* our service */
+    .resp-tabs-container.hor_1{
+        background: none;
+    }
+    .detail-box.resp-tab-content.hor_1.resp-tab-content-active{
+        background-image: url(/image/service-1-bg.png);
+    }
+    .resp-accordion.hor_1 button{
+        background-color: #fff;
+        border: none;
+        display: ruby;
+    }
+    .resp-tabs-container.hor_1 .resp-accordion.hor_1{
+        background-color: #fff !important;
+        border: none;
+    }
+    .resp-accordion.hor_1 img{
+        margin-right: 10px;
+    }
+
+
+    /* marketplace */
+    .left-block ul{
+        padding-left: 0px;
+    }
+    .right-block{
+        padding-left: 0px;
+    }
+
+
+    /* our value */
+    .left-side{
+        width: 100%;
+        padding-left: 35px;
+    }
+    .right-side{
+        width: 100%;
+    }
+
+
+    /* FUTURED JOB */
+    .inner-box{
+        margin-bottom: 20px;
+    }
+
+
+    /* stay in touch */
+    .stay-in-know{
+        width: 100%;
+    }
+
+
+    /* footer */
+    .Upper-box ul li:nth-child(1){
+        width: 20%;
+    }
+    .Upper-box ul li{
+        width: 40%;
+    }
+
+
+    /* lower-box */
+    .lower-box ul{
+        text-align: center;
+    }
+    .touch{
+        text-align: center;
+    }
+    .touch p{
+        margin: 0  auto;
+    }
+    .touch div{
+        margin: 0 auto;
+        padding-right: 30px;
+    }
+    .bottom-part .right{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media screen and (max-width: 639px) {
+    .nevbar{
+        width: 96.4%;
+    }
+    .supporting{
+        height: 490px;
+    }
+    .case-study-dis p{
+        margin-bottom: 0px;
+    }
+    .case-study-dis-white p{
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .detail ul li{
+        width: 100%;
+    }
+    .detail ul{
+        padding-left: 0px;
+    }
+    .left-block ul li{
+        width: 100%;
+        align-items: center;
+    }
+    .left-block ul li img{
+        margin-left: 26%;
+    }
+    .case .col-sm-3{
+        width: 100%;
+    }
+    .case .col-sm-3{
+        width: 100%;
+    }
+    .from .col-5{
+        width: 100%;
+    }
+    .from .col-2{
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .Upper-box{
+        padding-top: 269px;
+    }
+    .Upper-box ul{
+        display: block;
+    }
+    .Upper-box ul li:nth-child(1){
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .Upper-box ul li{
+        width: 100%;
+        text-align: center;
+    }
+    .touch div{
+        padding-right: 97px;
+    }
+    .bottom-part .right{
+        display: block;
+        text-align: center;
+    }
+    .right-side{
+        padding-left: 0px;
+    }
+    .resp-accordion.hor_1 button h5{
+        font-size: 15px;
+    }
+    .detail-box div h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .detail-box div ul li{
+        font-size: 15px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .detail-box div p{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .resp-tabs-container.hor_1{
+        padding: 0px;
+    }
+    .detail-box div ul{
+        margin-bottom: 4px;
+    }
+    .detail-box div h2{
+        margin-bottom: 10px;
+    }
+    .detail p{
+        width: 100%;
+    }
+    .from .col-2{
+        width: 39%;
+    }
+    .Upper-box ul li h4{
+        margin-top: 21px;
+    }
+} 
